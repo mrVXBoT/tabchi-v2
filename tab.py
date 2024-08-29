@@ -6,8 +6,8 @@ import asyncio
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 # end import
 # start Pyrogram.Client
-api_id = 18938962
-api_hash = "04df064c5de4e7eea214d68dc819ef76"
+api_id = add_api_ID
+api_hash = "add_api_hash"
 app = Client("PC-VK18EFWDG", api_id=api_id, api_hash=api_hash)
 scheduler = AsyncIOScheduler({'apscheduler.job_defaults.max_instances':2})
 # end Pyrogram.Client
@@ -18,7 +18,7 @@ Admins, Timerg, Timerp, Adgs, Adps, AdCHIDG, AdIDG, AdCHIDP, AdIDP = [], [], [],
 if Admins:
  print('The initial database is already created!')
 else:
- Owner = input('6476459013')
+ Owner = input('admin_id')
  Admins.append(int(Owner))
  Adgs.append('off')
  Adps.append('off')
